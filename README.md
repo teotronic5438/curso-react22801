@@ -9,22 +9,22 @@ npm run build
 
 **…or create a new repository on the command line**
 
-echo "# test" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/teotronic5438/test.git
-git push -u origin main
+echo "# test" >> README.md\
+git init\
+git add README.md\
+git commit -m "first commit"\
+git branch -M main\
+git remote add origin https://github.com/teotronic5438/test.git\
+git push -u origin main\
 
 **…or push an existing repository from the command line**
 **SUBIENDO ARCHIVOS DESDE REPOSITORIO LOCAL**
-git init
-git add .
-git commit -m "mensaje commit inicial"
-git remote add origin https://github.com/teotronic5438/test.git // o url de repositorio creado en gihtub
-git branch -M main
-git push -u origin main  // si no estas logeado aca te pedira que te logees, si ya estas logeado sube automatico
+git init\
+git add .\
+git commit -m "mensaje commit inicial"\
+git remote add origin https://github.com/teotronic5438/test.git // o url de repositorio creado en gihtub\
+git branch -M main\
+git push -u origin main  // si no estas logeado aca te pedira que te logees, si ya estas logeado sube automatico\
 
 ***Nota: en caso de usar otra cuenta de github, debes borrar las credenciales de logeo, caso contrario no conectara***
 
