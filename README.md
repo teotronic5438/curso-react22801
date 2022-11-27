@@ -17,8 +17,9 @@ git branch -M main\
 git remote add origin https://github.com/teotronic5438/test.git\
 git push -u origin main\
 
-**…or push an existing repository from the command line**
-**SUBIENDO ARCHIVOS DESDE REPOSITORIO LOCAL**
+**…or push an existing repository from the command line**\
+**SUBIENDO ARCHIVOS DESDE REPOSITORIO LOCAL**\
+
 git init\
 git add .\
 git commit -m "mensaje commit inicial"\
