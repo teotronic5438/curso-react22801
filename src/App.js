@@ -1,23 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Router from './Components/Routes/Router';
+import './App.css'
+import Button from 'react-bootstrap/Button';
+import Interruptor from './Components/Interruptor/Interruptor';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='container'>
+      {/* <a href='http://localhost:3000/home'>Voy al Home</a> */}
+      {/* <a href='/home'>Voy al Home</a> */}
+      <Router />
+      <Interruptor></Interruptor>
+      <div className="d-grid gap-2">  {/* el gap-2 es si hay mas de un boton */}
+        <Button variant="warning" size="lg" onClick={()=>alert("Se apreto un boton")}>Alerta</Button>
+      </div>
     </div>
   );
 }

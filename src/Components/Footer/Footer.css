@@ -1,0 +1,7 @@
+.pie{
+    position: fixed;
+    bottom: 0;
+}
+.pie > #pie-foote{
+    text-align: center;
+}

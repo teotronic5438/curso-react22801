@@ -1,41 +1,4 @@
-# Comandos basicos para la ejecucion del proyecto
-
-cd curso-react22801\
-npm start\
-npm run build
-
-### DETALLES PARA INICIO CON UN PROYECTO GITHUB (SUBIENDO REPOSITORIO LOCAL)
-**Quick setup — if you’ve done this kind of thing before**
-
-**…or create a new repository on the command line**
-
-echo "# test" >> README.md\
-git init\
-git add README.md\
-git commit -m "first commit"\
-git branch -M main\
-git remote add origin https://github.com/teotronic5438/test.git\
-git push -u origin main\
-
-**…or push an existing repository from the command line**\
-**SUBIENDO ARCHIVOS DESDE REPOSITORIO LOCAL**
-
-git init\
-git add .\
-git commit -m "mensaje commit inicial"\
-git remote add origin https://github.com/teotronic5438/test.git // o url de repositorio creado en gihtub\
-git branch -M main\
-git push -u origin main  // si no estas logeado aca te pedira que te logees, si ya estas logeado sube automatico\
-
-***Nota: en caso de usar otra cuenta de github, debes borrar las credenciales de logeo, caso contrario no conectara***
-
-**…or import code from another repository**
-
-You can initialize this repository with code from a Subversion, Mercurial, or TFS project.
-
-<hr></hr>
-
-## Getting Started with Create React App
+# Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
