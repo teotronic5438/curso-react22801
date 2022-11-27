@@ -1,7 +1,7 @@
 # Comandos basicos para la ejecucion del proyecto
 
-cd curso-react22801
-npm start
+cd curso-react22801\
+npm start\
 npm run build
 
 ### DETALLES PARA INICIO CON UN PROYECTO GITHUB (SUBIENDO REPOSITORIO LOCAL)
